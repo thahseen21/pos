@@ -1,0 +1,43 @@
+.menu-container {
+  position: absolute;
+  left: 3.5%;
+  width: 71%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.menu-wrapper {
+  height: 87vh;
+  overflow-y: scroll;
+  /* background-color: pink; */
+}
+
+.cat-wrapper {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.dish-wrapper {
+  margin-top: 2%;
+  display: flex;
+  /* background-color: yellow; */
+  height: 78%;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.dish-container {
+  overflow: auto;
+  height: 86%;
+  margin-top: 1.6%;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  padding: 1% 2%;
+  border-radius: 10px;
+  scroll-behavior: smooth;
+}
+
+.dishes {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1%;
+}

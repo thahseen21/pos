@@ -1,0 +1,110 @@
+.bill-wrapper {
+  position: absolute;
+  right: 0;
+  height: 100%;
+  width: 25.5%;
+}
+
+.bill-container {
+  /* box-shadow: 0 1px 4px rgb(0 0 0 / 30%), 0 0 40px rgb(0 0 0 / 10%) inset; */
+  height: 95%;
+}
+
+.table-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.table-wrapper div {
+  display: flex;
+}
+
+.changeTable-wrapper {
+  width: 25%;
+}
+
+.tables-contain {
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: auto;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 94%;
+}
+
+.table-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+  background-color: aqua;
+  margin: 6px;
+}
+
+.summary-container {
+  background-color: white;
+  margin-top: 8%;
+  height: 60%;
+  width: 92%;
+  padding: 4%;
+  overflow: hidden;
+}
+
+.summary-head {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 3%;
+}
+
+.summary-table-wrapper table {
+  display: table;
+  text-align: left;
+  width: 100%;
+}
+
+.summary-table-wrapper table thead tr th:nth-child(1),
+.summary-table-wrapper table tbody tr td:nth-child(1) {
+  width: 60%;
+}
+
+.summary-table-wrapper table tr {
+  display: table;
+  width: 100%;
+}
+
+.summary-table-wrapper table thead tr th:nth-child(2),
+.summary-table-wrapper table tbody tr td:nth-child(2) {
+  width: 20%;
+}
+.summary-table-wrapper table thead tr th:nth-child(3),
+.summary-table-wrapper table tbody tr td:nth-child(3) {
+  width: 20%;
+}
+
+.summary-table-wrapper table tbody {
+  display: block;
+  overflow: auto;
+  height: 391px;
+}
+
+.settlement {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 20%;
+  margin-top: 5%;
+  /* background-color: aqua; */
+}
+
+.settlement .button-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 46%;
+  background-color: pink;
+  margin: 2%;
+  border-radius: 20px;
+}

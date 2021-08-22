@@ -1,0 +1,44 @@
+.error-wrapper {
+  font-size: 14px;
+  box-sizing: border-box;
+  position: fixed;
+  z-index: 999999;
+  top: 12px;
+  right: 2%;
+  transition: transform 0.6s ease-in-out;
+  animation: toast-in-right 0.7s;
+  height: 10%;
+  width: 15%;
+}
+
+.remove {
+  display: none;
+}
+
+.error-container {
+  position: relative;
+  background: pink;
+  overflow: hidden;
+  opacity: 0.9;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  top: 2%;
+  margin: 2%;
+  box-shadow: 0 0 10px #999;
+  animation: toast-in-right;
+  transition: transform 0.6s ease-in;
+}
+
+.error-wrapper div {
+  padding: 2%;
+}
+
+@keyframes toast-in-right {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}

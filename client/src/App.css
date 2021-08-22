@@ -1,0 +1,47 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.flex-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.primary-color {
+  background-color: #fff8f0;
+}
+
+.secondary-color {
+  background-color: #2a0c4e;
+}
+
+.green {
+  background-color: #109648;
+}
+
+.red {
+  background-color: #e94f37;
+}
+
+.dark-text {
+  color: #131313;
+}
+
+/* paddings */
+
+.view-padding {
+  padding: 4%;
+}
+
+.separator3 {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    rgba(42, 12, 78, 1),
+    rgba(255, 255, 255, 0)
+  );
+}

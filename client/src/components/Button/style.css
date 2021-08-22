@@ -1,0 +1,46 @@
+.cat-button {
+  background-color: white;
+  margin: 1em;
+  min-width: 120px;
+  height: 40px;
+  border-radius: 1em;
+}
+
+.cat-button p {
+  padding: 0.6em;
+  text-align: center;
+  text-transform: capitalize;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.dish-button {
+  width: 9vw;
+  height: 17vh;
+  background-color: white;
+  margin: 1% 3%;
+  padding: 6px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.primary-button {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.control-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* ::-webkit-scrollbar {
+  display: none;
+} */

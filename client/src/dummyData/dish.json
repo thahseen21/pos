@@ -1,0 +1,326 @@
+[
+  {
+    "id": 1,
+    "cat_id": 1,
+    "dish_name": "Mayonnaise",
+    "price": 30
+  },
+  {
+    "id": 2,
+    "cat_id": 1,
+    "dish_name": "Tender Coconut Pudding",
+    "price": 15
+  },
+  {
+    "id": 3,
+    "cat_id": 1,
+    "dish_name": "Arabian Grape Juice 1 Ltr",
+    "price": 180
+  },
+  {
+    "id": 4,
+    "cat_id": 2,
+    "dish_name": "Shawarma Roll",
+    "price": 120
+  },
+  {
+    "id": 5,
+    "cat_id": 2,
+    "dish_name": "Spl Shawarma Roll",
+    "price": 160
+  },
+  {
+    "id": 6,
+    "cat_id": 2,
+    "dish_name": "Mexican Shawarma Roll",
+    "price": 130
+  },
+  {
+    "id": 7,
+    "cat_id": 2,
+    "dish_name": "Mexican Shawarma Plate",
+    "price": 140
+  },
+  {
+    "id": 8,
+    "cat_id": 2,
+    "dish_name": "Italian Shawarma",
+    "price": 160
+  },
+  {
+    "id": 9,
+    "cat_id": 2,
+    "dish_name": "Chicken Tikka Roll",
+    "price": 150
+  },
+  {
+    "id": 10,
+    "cat_id": 2,
+    "dish_name": "Chicken Seekh Roll",
+    "price": 170
+  },
+  {
+    "id": 11,
+    "cat_id": 2,
+    "dish_name": "Shawarma Plate",
+    "price": 170
+  },
+  {
+    "id": 12,
+    "cat_id": 3,
+    "dish_name": "Afghani BBQ Chicken",
+    "price": 260
+  },
+  {
+    "id": 13,
+    "cat_id": 3,
+    "dish_name": "Malay BBQ Chicken",
+    "price": 150
+  },
+  {
+    "id": 14,
+    "cat_id": 3,
+    "dish_name": "Alfaham Dajaj",
+    "price": 150
+  },
+  {
+    "id": 15,
+    "cat_id": 3,
+    "dish_name": "Pepper BBQ",
+    "price": 150
+  },
+  {
+    "id": 16,
+    "cat_id": 3,
+    "dish_name": "Grill Chicken",
+    "price": 150
+  },
+  {
+    "id": 17,
+    "cat_id": 3,
+    "dish_name": "BBQ Chicken",
+    "price": 150
+  },
+  {
+    "id": 18,
+    "cat_id": 3,
+    "dish_name": "BBQ Fish",
+    "price": 290
+  },
+  {
+    "id": 19,
+    "cat_id": 4,
+    "dish_name": "Tandoori Chicken",
+    "price": 230
+  },
+  {
+    "id": 20,
+    "cat_id": 4,
+    "dish_name": "Chicken Seekh",
+    "price": 230
+  },
+  {
+    "id": 21,
+    "cat_id": 4,
+    "dish_name": "Chicken Tikka",
+    "price": 230
+  },
+  {
+    "id": 22,
+    "cat_id": 4,
+    "dish_name": "Malay Chicken Tikka",
+    "price": 230
+  },
+  {
+    "id": 23,
+    "cat_id": 4,
+    "dish_name": "Hariyali Chicken Tikka",
+    "price": 230
+  },
+  {
+    "id": 24,
+    "cat_id": 4,
+    "dish_name": "Kali Mirch Tikka",
+    "price": 230
+  },
+  {
+    "id": 25,
+    "cat_id": 4,
+    "dish_name": "Achari Chicken Tikka",
+    "price": 230
+  },
+  {
+    "id": 26,
+    "cat_id": 4,
+    "dish_name": "Chicken Tangdi Kebab",
+    "price": 230
+  },
+  {
+    "id": 27,
+    "cat_id": 4,
+    "dish_name": "Chicken Reshmi Kebab",
+    "price": 230
+  },
+  {
+    "id": 28,
+    "cat_id": 4,
+    "dish_name": "Chicken Kalmi Kebab",
+    "price": 230
+  },
+  {
+    "id": 29,
+    "cat_id": 5,
+    "dish_name": "Paneer Tikka",
+    "price": 200
+  },
+  {
+    "id": 30,
+    "cat_id": 6,
+    "dish_name": "Chicken Biriyani",
+    "price": 15
+  },
+  {
+    "id": 31,
+    "cat_id": 6,
+    "dish_name": "Special Chicken Biriyani",
+    "price": 130
+  },
+  {
+    "id": 32,
+    "cat_id": 6,
+    "dish_name": "Mutton Biriyani",
+    "price": 330
+  },
+  {
+    "id": 33,
+    "cat_id": 6,
+    "dish_name": "Egg Biriyani",
+    "price": 180
+  },
+  {
+    "id": 34,
+    "cat_id": 6,
+    "dish_name": "Chicken Tikka Biriyani",
+    "price": 130
+  },
+  {
+    "id": 35,
+    "cat_id": 6,
+    "dish_name": "Fish Biriyani",
+    "price": 120
+  },
+  {
+    "id": 36,
+    "cat_id": 7,
+    "dish_name": "chicken Fried Rice",
+    "price": 120
+  },
+  {
+    "id": 37,
+    "cat_id": 7,
+    "dish_name": "Veg Fried Rice",
+    "price": 120
+  },
+  {
+    "id": 38,
+    "cat_id": 7,
+    "dish_name": "Thai Chicken fried",
+    "price": 120
+  },
+  {
+    "id": 39,
+    "cat_id": 8,
+    "dish_name": "Tandoor Roti",
+    "price": 120
+  },
+  {
+    "id": 40,
+    "cat_id": 8,
+    "dish_name": "Butter Roti",
+    "price": 120
+  },
+  {
+    "id": 41,
+    "cat_id": 8,
+    "dish_name": "Garlic Roti",
+    "price": 120
+  },
+  {
+    "id": 42,
+    "cat_id": 9,
+    "dish_name": "Hot N Sour Chicken",
+    "price": 120
+  },
+  {
+    "id": 43,
+    "cat_id": 9,
+    "dish_name": "Chicken Clear soup",
+    "price": 120
+  },
+  {
+    "id": 44,
+    "cat_id": 9,
+    "dish_name": "Veg clear soup",
+    "price": 120
+  },
+  {
+    "id": 45,
+    "cat_id": 9,
+    "dish_name": "Mutton soup",
+    "price": 120
+  },
+  {
+    "id": 46,
+    "cat_id": 10,
+    "dish_name": "Dal fry",
+    "price": 120
+  },
+  {
+    "id": 47,
+    "cat_id": 10,
+    "dish_name": "Dal Tadka",
+    "price": 120
+  },
+  {
+    "id": 48,
+    "cat_id": 10,
+    "dish_name": "Kadai Paneer",
+    "price": 120
+  },
+  {
+    "id": 49,
+    "cat_id": 11,
+    "dish_name": "Egg Masala",
+    "price": 120
+  },
+  {
+    "id": 50,
+    "cat_id": 11,
+    "dish_name": "Fried Egg masala",
+    "price": 120
+  },
+  {
+    "id": 51,
+    "cat_id": 11,
+    "dish_name": "hyderabadi Fish",
+    "price": 120
+  },
+  {
+    "id": 52,
+    "cat_id": 11,
+    "dish_name": "chilli mutton",
+    "price": 120
+  },
+  {
+    "id": 53,
+    "cat_id": 12,
+    "dish_name": "Chilli egg",
+    "price": 120
+  },
+  {
+    "id": 54,
+    "cat_id": 12,
+    "dish_name": "Dragon chicken",
+    "price": 120
+  }
+]

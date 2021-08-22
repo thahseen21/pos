@@ -1,0 +1,10 @@
+.modal-wrapper {
+  position: fixed;
+  left: calc(100% - 58.5%);
+  top: 25%;
+  width: 17%;
+  background-color: white;
+  z-index: 2200;
+  border-radius: 10px;
+  transition: all 1s ease-out;
+}
