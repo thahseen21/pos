@@ -1,0 +1,177 @@
+[
+  {
+    "dish_name": "Mayonnaise",
+    "cat_id": 1,
+    "price": 30
+  },
+  {
+    "dish_name": "Tender Coconut Pudding",
+    "cat_id": 1,
+    "price": 15
+  },
+  {
+    "dish_name": "Arabian Grape Juice 1 Ltr",
+    "cat_id": 1,
+    "price": 180
+  },
+  {
+    "dish_name": "Shawarma Roll",
+    "cat_id": 2,
+    "price": 120
+  },
+  {
+    "dish_name": "Spl Shawarma Roll",
+    "cat_id": 2,
+    "price": 160
+  },
+  {
+    "dish_name": "Mexican Shawarma Roll",
+    "cat_id": 2,
+    "price": 130
+  },
+  {
+    "dish_name": "Mexican Shawarma Plate",
+    "cat_id": 2,
+    "price": 140
+  },
+  {
+    "dish_name": "Italian Shawarma",
+    "cat_id": 2,
+    "price": 160
+  },
+  {
+    "dish_name": "Chicken Tikka Roll",
+    "cat_id": 2,
+    "price": 150
+  },
+  {
+    "dish_name": "Chicken Seekh Roll",
+    "cat_id": 2,
+    "price": 170
+  },
+  {
+    "dish_name": "Shawarma Plate",
+    "cat_id": 2,
+    "price": 170
+  },
+  {
+    "dish_name": "Afghani BBQ Chicken",
+    "cat_id": 3,
+    "price": 260
+  },
+  {
+    "dish_name": "Malay BBQ Chicken",
+    "cat_id": 3,
+    "price": 150
+  },
+  {
+    "dish_name": "Alfaham Dajaj",
+    "cat_id": 3,
+    "price": 150
+  },
+  {
+    "dish_name": "Pepper BBQ",
+    "cat_id": 3,
+    "price": 150
+  },
+  {
+    "dish_name": "Grill Chicken",
+    "cat_id": 3,
+    "price": 150
+  },
+  {
+    "dish_name": "BBQ Chicken",
+    "cat_id": 3,
+    "price": 150
+  },
+  {
+    "dish_name": "BBQ Fish",
+    "cat_id": 3,
+    "price": 290
+  },
+  {
+    "dish_name": "Tandoori Chicken",
+    "cat_id": 4,
+    "price": 230
+  },
+  {
+    "dish_name": "Chicken Seekh",
+    "cat_id": 4,
+    "price": 230
+  },
+  {
+    "dish_name": "Chicken Tikka",
+    "cat_id": 4,
+    "price": 230
+  },
+  {
+    "dish_name": "Malay Chicken Tikka",
+    "cat_id": 4,
+    "price": 230
+  },
+  {
+    "dish_name": "Hariyali Chicken Tikka",
+    "cat_id": 4,
+    "price": 230
+  },
+  {
+    "dish_name": "Kali Mirch Tikka",
+    "cat_id": 4,
+    "price": 230
+  },
+  {
+    "dish_name": "Achari Chicken Tikka",
+    "cat_id": 4,
+    "price": 230
+  },
+  {
+    "dish_name": "Chicken Tangdi Kebab",
+    "cat_id": 4,
+    "price": 230
+  },
+  {
+    "dish_name": "Chicken Reshmi Kebab",
+    "cat_id": 4,
+    "price": 230
+  },
+  {
+    "dish_name": "Chicken Kalmi Kebab",
+    "cat_id": 4,
+    "price": 230
+  },
+  {
+    "dish_name": "Paneer Tikka",
+    "cat_id": 5,
+    "price": 200
+  },
+  {
+    "dish_name": "Chicken Biriyani",
+    "cat_id": 6,
+    "price": 15
+  },
+  {
+    "dish_name": "Special Chicken Biriyani",
+    "cat_id": 6,
+    "price": 130
+  },
+  {
+    "dish_name": "Mutton Biriyani",
+    "cat_id": 6,
+    "price": 330
+  },
+  {
+    "dish_name": "Egg Biriyani",
+    "cat_id": 6,
+    "price": 180
+  },
+  {
+    "dish_name": "Chicken Tikka Biriyani",
+    "cat_id": 6,
+    "price": 130
+  },
+  {
+    "dish_name": "Fish Biriyani",
+    "cat_id": 6,
+    "price": 120
+  }
+]
