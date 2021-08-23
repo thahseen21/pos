@@ -1,6 +1,8 @@
-export const BASE_URL = "http://localhost:3300";
-export const CATEGORY = "/cashier/category";
-export const DISH = "/cashier/dish";
+export const BASE_URL = "https://localhost:5001";
+// export const BASE_URL = "http://localhost:5000";
+export const CATEGORY = "/food/category";
+// export const DISH = "/cashier/dish";
+export const DISH = "/WeatherForecast";
 
 export const PLACE_ORDER = "/cashier/placeorder";
 export const INC_ORDER = "/cashier/incrementorder";
