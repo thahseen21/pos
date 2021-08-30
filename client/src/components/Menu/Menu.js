@@ -1,12 +1,12 @@
-import React from "react";
+import React from 'react'
 
-import { H1, H2 } from "../Text/Text";
-import { CategoryButton, DishButton } from "../Button/Button";
+import { H1, H2 } from '../Text/Text'
+import { CategoryButton, DishButton } from '../Button/Button'
 
-import "./style.css";
+import './style.css'
 
 const Menu = ({ category, dish, addOrder, currentTable, order }) => {
-  console.log("adsf", order?.[currentTable]?.orderId, order);
+  console.log('menu wrapper', dish)
   return (
     <div className="menu-container">
       <div className="view-padding menu-wrapper">
@@ -15,7 +15,7 @@ const Menu = ({ category, dish, addOrder, currentTable, order }) => {
           <div className="cat-wrapper">
             {category &&
               category.map((cat) => {
-                return <CategoryButton text={cat.cat_name} />;
+                return <CategoryButton text={cat.categoryName} />
               })}
           </div>
         </>
@@ -27,39 +27,37 @@ const Menu = ({ category, dish, addOrder, currentTable, order }) => {
                 return [
                   <H2
                     text={cat.cat_name}
-                    style={{ color: "grey" }}
+                    style={{ color: 'grey' }}
                     id={cat.cat_name}
                   />,
                   <div className="dishes">
+                    {console.log('dish dsfsdf', dish)}
                     {dish.length !== 0 &&
                       dish.map((dish) => {
-                        if (cat.id === dish.cat_id) {
-                          {
-                            console.log("dish.length", dish.length);
-                          }
+                        if (cat.id === dish.categoryId) {
                           return (
                             <DishButton
-                              text={dish.dish_name}
+                              text={dish.name}
                               onClick={() => {
                                 addOrder({
                                   dishId: dish.id,
                                   table: currentTable,
                                   count: 1,
                                   orderId: order?.[currentTable]?.orderId,
-                                });
+                                })
                               }}
                             />
-                          );
+                          )
                         }
                       })}
                   </div>,
-                ];
+                ]
               })}
           </div>
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Menu;
+export default Menu

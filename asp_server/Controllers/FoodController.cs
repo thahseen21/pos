@@ -1,5 +1,8 @@
 using System;
+using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
+using asp_server.Data;
+using asp_server.Models;
 
 namespace asp_server.Controllers
 {
@@ -7,13 +10,43 @@ namespace asp_server.Controllers
     [Route("[controller]")]
     public class FoodController : ControllerBase
     {
-        public string[]
-            Category = { "Biriyani", "Shawarma", "Chick", "Mutton" };
+        private readonly ApplicationDbContext _db;
+
+        public FoodController(ApplicationDbContext db)
+        {
+            this._db = db;
+        }
 
         [HttpGet("category")]
-        public IActionResult category()
+        public IActionResult Category()
         {
-            return Ok(Category);
+            try
+            {
+                IEnumerable<Category> categoryList = _db.Category;
+                return Ok(categoryList);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"{ex}");
+                
+                return StatusCode(500, "Internal server error");
+            }
+        }
+
+        [HttpGet("dish")]
+        public IActionResult Dish()
+        {
+            try
+            {
+                IEnumerable<Dish> dishList = _db.Dish;
+                return Ok(dishList);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"{ex}");
+                
+                return StatusCode(500,"Internal server error");
+            }
         }
     }
 }

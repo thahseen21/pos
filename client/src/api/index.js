@@ -16,6 +16,7 @@ const api = async (path, method, params) => {
     response = await fetch(ApiConstants.BASE_URL + path, option)
     if (response.status === 200) {
       response = await response.json()
+      console.log(response)
     }
   } catch (error) {
     console.log('error ', error)

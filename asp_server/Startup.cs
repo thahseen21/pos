@@ -6,11 +6,14 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.SignalR.Protocol;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using asp_server.Data;
 
 namespace asp_server
 {
@@ -26,6 +29,13 @@ namespace asp_server
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services
+                .AddDbContext<ApplicationDbContext>(opt =>
+                    opt
+                        .UseSqlServer(Configuration
+                            .GetConnectionString("DbConnection")));
+
+            services.AddSignalR().AddJsonProtocol();
             services
                 .AddCors(options =>
                 {
@@ -44,7 +54,7 @@ namespace asp_server
                     c
                         .SwaggerDoc("v1",
                         new OpenApiInfo {
-                            Title = "asp_server",
+                            Title = "   ",
                             Version = "v1"
                         });
                 });
