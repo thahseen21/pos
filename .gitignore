@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 /client/node_modules
 
 /asp_server/bin
 /asp_server/obj
+=======
+/asp_server/server/bin
+/asp_server/server/obj
+>>>>>>> 2fd7430b7c6048be26fd19e7af7463d75002eb5b
