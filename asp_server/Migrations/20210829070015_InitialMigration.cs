@@ -37,14 +37,14 @@ namespace asp_server.Migrations
                         CreatedAt =
                             table
                                 .Column<DateTime>(type: "datetime2",
-                                nullable: false,
+                                nullable: true,
                                 defaultValueSql: "GetDate()"),
                         TransactionMode =
                             table
                                 .Column<string>(type: "nvarchar(max)",
                                 nullable: true),
                         isPaid =
-                            table.Column<bool>(type: "bit", nullable: false,defaultValueSql:"false")
+                            table.Column<bool>(type: "bit", nullable: true,defaultValueSql:"false")
                     },
                 constraints: table =>
                 {

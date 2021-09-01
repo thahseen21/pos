@@ -1,6 +1,11 @@
+using System;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using asp_server.Data;
-using System.Threading.Tasks;
+using asp_server.Models;
+using asp_server.ViewModels;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace asp_server.Controllers
 {
@@ -10,12 +15,36 @@ namespace asp_server.Controllers
     {
         private readonly ApplicationDbContext _db;
 
-        [HttpPost("neworder")]
-        public async Task<IActionResult> NewOrder([FromBody] object data)
+        public OrderContoller(ApplicationDbContext db)
         {
-            await this._db.AddAsync(data);
+            this._db = db;
+        }
+
+        [HttpPost("neworder")]
+        public async Task<IActionResult> NewOrder([FromBody] Order data)
+        {
+            data.CreatedAt = DateTime.Now;
+            await this._db.Order.AddAsync(data);
             await this._db.SaveChangesAsync();
             return Ok(data);
+        }
+
+
+        [HttpPut("settleorder")]
+        public async Task<IActionResult> SettleOrder([FromBody] Order data)
+        {
+            if (data != null)
+            {
+                Order temp = _db.Order.FirstOrDefault(order => order.Id == data.Id);
+                temp.TransactionMode = data.TransactionMode;
+                temp.isPaid = data.isPaid;
+
+                this._db.Order.Update(temp);
+                await this._db.SaveChangesAsync();
+                return Ok(temp);
+            }else{
+                return Ok("something went wrong");
+            }
         }
     }
 }
