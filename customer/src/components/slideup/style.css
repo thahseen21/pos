@@ -1,0 +1,28 @@
+.slideupwrapper {
+  height: 75%;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background-color: white;
+  position: fixed;
+  z-index: 500;
+  box-sizing: border-box;
+  /* display: flex; */
+}
+.slideup-container {
+  padding-bottom: 10px;
+}
+.myplate-order {
+  display: flex;
+  flex-direction: column;
+  max-height: calc(100vh - 400px);
+  overflow-y: auto;
+}
+.kitchen-button {
+  position: absolute;
+  width: 80%;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* margin-bottom: 10px; */
+}

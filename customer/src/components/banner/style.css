@@ -1,0 +1,26 @@
+.viewPlate-wrapper {
+  color: #ffffff;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  height: 50px;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #212121;
+}
+
+.view-plate-container {
+  width: 100%;
+}
+
+.myplate-wrapper {
+  background-color: #4285f4;
+  color: white;
+}
+
+.myplate-head {
+  font-weight: 700;
+  margin: 0;
+}

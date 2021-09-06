@@ -1,0 +1,26 @@
+.wrapper-searchBar {
+  /* background-color: yellow; */
+  /* display: flex; */
+  justify-content: center;
+}
+.container-searchbar {
+  position: relative;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.05);
+}
+.icon {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(-50%, -50%);
+}
+.searchInput {
+  width: 100%;
+  height: 30px;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  padding-left: 10px;
+}
+.searchinput:focus {
+  border: none;
+}
